@@ -3,8 +3,7 @@ import bg from './images/studying.jpg';
 
 export default function LandingPage() {
   return (
-    <div className="overflow-hidden px-6 bg-cover bg-center h-screen" 
-    style={{ backgroundImage: `url(${bg})` }}
+    <div className="overflow-hidden px-6" 
     >
       <div className="mx-auto mt-7 w-full max-w-6xl lg:mt-14">
         {/* Nav */}
@@ -18,8 +17,9 @@ export default function LandingPage() {
           </a> */}
 
           <div className="flex-1"></div>
-
-          <div className="hidden space-x-10 lg:flex  font-bold text-white">
+          <div >
+          <div className="hidden space-x-10 lg:flex  font-bold text-black
+           ">
             <a
               href="#"
               className="text-lg hover:text-heading focus:text-heading"
@@ -63,6 +63,7 @@ export default function LandingPage() {
               CONTACT US
             </a>
           </div>
+          </div>
 
           <div className="lg:hidden">
             <button className="inline-flex cursor-pointer items-center justify-center rounded-xl border-none border-transparent bg-transparent p-2.5 font-semibold text-text hover:bg-heading/5 hover:text-heading focus:bg-heading/5 focus:outline-none focus:ring-2 focus:ring-heading/80 focus:ring-offset-0 disabled:opacity-30 disabled:hover:bg-transparent disabled:hover:text-text">
@@ -74,12 +75,12 @@ export default function LandingPage() {
         <main className="mt-14 lg:mt-24">
           {/* Hero section */}
           <section className="relative">
-            <div className="text-sm font-semibold uppercase tracking-tight text-white">
+            <div className="text-sm font-semibold uppercase tracking-tightfont-bold text-black">
               <p className="ml-10 text-md">Expert Education </p>
-              <hr className="w-1/5 border-white p-1 h-2"/>
+              <hr className="w-1/5 border-black p-1 h-2"/>
             </div>
             <div>
-            <h1 className="font-display relative z-10 mt-4 text-4xl font-bold leading-tight tracking-tight text-heading lg:mt-8 lg:text-6xl">
+            <h1 className="font-display relative z-10 mt-4 text-4xl text-black font-bold leading-tight tracking-tight text-heading lg:mt-8 lg:text-6xl">
               Explore your <br /> <span>dreams overseas</span>
             </h1>
             </div>
@@ -93,7 +94,7 @@ export default function LandingPage() {
             </div>
 
             {/* Deco - Circle SVG */}
-            <svg
+            {/* <svg
               viewBox="0 0 200 200"
               fill="url(#deco_circle_342_59077)"
               xmlns="http://www.w3.org/2000/svg"
@@ -125,9 +126,8 @@ export default function LandingPage() {
                   <stop offset="1" stopColor="#FF7B60" />
                 </linearGradient>
               </defs>
-            </svg>
+            </svg> */}
           </section>
-
           {/* Mission section */}
           <section className="mt-12 flex flex-col justify-between gap-10 lg:mt-24 lg:flex-row lg:gap-4">
             <div>
