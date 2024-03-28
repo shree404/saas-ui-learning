@@ -1,6 +1,11 @@
 import React from "react";
 import { MenuAlt3Icon } from "@heroicons/react/outline";
 import bg from './images/studying.jpg';
+import Aboutmenu from "./aboutmenu";
+import StudyAbroadMenu from "./studyabroadmenu";
+import StudentServicesMenu from "./studentservicesmenu";
+import Visamenu from "./visamenu";
+import ContactUsmenu from "./contactusmenu";
 
 function Nav(){
     return(
@@ -25,25 +30,25 @@ function Nav(){
               href="#"
               className="text-lg hover:text-heading focus:text-heading"
             >
-              ABOUT US
+            <Aboutmenu/>
             </a>
             <a
               href="#"
               className="text-lg hover:text-heading focus:text-heading"
             >
-              STUDY ABROAD
+              <StudyAbroadMenu/>
             </a>
             <a
               href="#"
               className="text-lg hover:text-heading focus:text-heading"
             >
-              STUDENT SERVICES
+              <StudentServicesMenu/>
             </a>
             <a
               href="#"
               className="text-lg hover:text-heading focus:text-heading"
             >
-              VISA
+              <Visamenu/>
             </a>
             <a
               href="#"
@@ -61,7 +66,7 @@ function Nav(){
               href="#"
               className="text-lg hover:text-heading focus:text-heading"
             >
-              CONTACT US
+              <ContactUsmenu/>
             </a>
           </div>
           </div>

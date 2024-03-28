@@ -5,6 +5,7 @@ import LandingPage from "./Components/Day1/landingpage";
 import bg from './Components/Day1/images/studying.jpg';
 import Description from "./Components/Day1/description";
 import Blog from "./Components/Day1/blog";
+import Data from "./Components/Day1/data";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       </div>
       <Description/>
       <Blog/>
+      <Data/>
     </div>
   );
 }
