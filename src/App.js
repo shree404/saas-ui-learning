@@ -1,11 +1,11 @@
 import React from "react";
-import Nav from "./Components/Day1/nav";
-import Hero from "./Components/Day1/hero";
-import LandingPage from "./Components/Day1/landingpage";
-import bg from './Components/Day1/images/studying.jpg';
-import Description from "./Components/Day1/description";
-import Blog from "./Components/Day1/blog";
-import Data from "./Components/Day1/data";
+import Nav from "./Components/Consultancy Website/Home/nav";
+import Hero from "./Components/Consultancy Website/Home/hero";
+import LandingPage from "./Components/Consultancy Website/Home/landingpage";
+import bg from './Components/Consultancy Website/images/studying.jpg';
+import Description from "./Components/Consultancy Website/Home/description";
+import Blog from "./Components/Consultancy Website/Home/blog";
+import Data from "./Components/Consultancy Website/Home/data";
 
 
 function App() {

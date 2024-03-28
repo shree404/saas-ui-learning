@@ -1,5 +1,5 @@
 import { MenuAlt3Icon } from "@heroicons/react/outline";
-import bg from './images/studying.jpg';
+import bg from '../images/studying.jpg';
 
 export default function LandingPage() {
   return (

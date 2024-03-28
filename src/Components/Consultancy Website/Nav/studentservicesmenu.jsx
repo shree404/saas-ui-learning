@@ -6,7 +6,7 @@ export default function StudentServicesMenu() {
   return (
     <div className="">
       <Menu as="div" className="relative inline-block text-left">
-        <Menu.Button className="inline-flex cursor-pointer items-center justify-center rounded-xl border-2 border-primary  px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:border-primary-accent hover:bg-primary-accent focus:outline-none focus:ring-2  focus:ring-offset-0 disabled:opacity-30 disabled:hover:border-primary disabled:hover:bg-primary disabled:hover:text-white ">
+        <Menu.Button className="inline-flex cursor-pointer items-center justify-center rounded-xl  px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:border-primary-accent hover:bg-primary-accent focus:outline-none focus:ring-2  focus:ring-offset-0 disabled:opacity-30 disabled:hover:border-primary disabled:hover:bg-primary disabled:hover:text-white ">
         STUDENT SERVICES
           <ChevronDownIcon className="ml-2 h-5 w-5" />
         </Menu.Button>
