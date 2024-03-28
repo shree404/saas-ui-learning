@@ -1,5 +1,5 @@
 import React from "react";
-import map from './images/map.png';
+import map from '../images/map.png';
 
 function Data(){
     return(

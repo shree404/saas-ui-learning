@@ -1,11 +1,13 @@
 import React from "react";
 import { MenuAlt3Icon } from "@heroicons/react/outline";
-import bg from './images/studying.jpg';
-import Aboutmenu from "./aboutmenu";
-import StudyAbroadMenu from "./studyabroadmenu";
-import StudentServicesMenu from "./studentservicesmenu";
-import Visamenu from "./visamenu";
-import ContactUsmenu from "./contactusmenu";
+import bg from '../images/studying.jpg';
+import Aboutmenu from "../Nav/aboutmenu";
+import StudyAbroadMenu from "../Nav/studyabroadmenu";
+import StudentServicesMenu from "../Nav/studentservicesmenu";
+import Visamenu from "../Nav/visamenu";
+import ContactUsmenu from "../images/contactusmenu";
+import Eventmenu from "../Nav/eventmenu";
+import Blogmenu from "../Nav/blogmenu";
 
 function Nav(){
     return(
@@ -24,7 +26,7 @@ function Nav(){
 
           <div className="flex-1"></div>
           <div >
-          <div className="hidden space-x-10 mt-10 lg:flex  font-bold text-white
+          <div className="hidden space-x-5 mt-10 lg:flex  font-bold text-white
            ">
             <a
               href="#"
@@ -54,13 +56,13 @@ function Nav(){
               href="#"
               className="text-lg hover:text-heading focus:text-heading"
             >
-              EVENT
+              <Eventmenu/>
             </a>
             <a
               href="#"
               className="text-lg hover:text-heading focus:text-heading"
             >
-              BLOG
+              <Blogmenu/>
             </a>
             <a
               href="#"

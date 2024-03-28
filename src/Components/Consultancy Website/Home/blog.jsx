@@ -1,8 +1,8 @@
 import React from "react";
-import aus from './images/australia.jpg';
-import can from './images/canada.jpg';
-import usa from './images/usa.jpg';
-import uk from './images/uk.jpg';
+import aus from '../images/australia.jpg';
+import can from '../images/canada.jpg';
+import usa from '../images/usa.jpg';
+import uk from '../images/uk.jpg';
 import Box from '@mui/material/Box';
   
 
