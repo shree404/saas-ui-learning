@@ -9,8 +9,8 @@ function Footer(){
             <div className="flex justify-center ">
             <div className="flex flex-col items-start justify-between space-y-8 md:flex-row md:space-y-0 gap-10 ">
                 <div>
-            <div className="text-4xl uppercase tracking-wide text-heading font-bold ">
-                STUDENT SERVICES
+            <div className="text-3xl uppercase tracking-wide text-heading font-bold ">
+                STUDENT <br /> SERVICES
               </div>
               <div className="mt-6 space-y-3 font-medium">
                   <a
@@ -65,7 +65,7 @@ function Footer(){
               </div>
               </div>
               <div>
-              <div className="text-4xl uppercase tracking-wide text-heading font-bold ">
+              <div className="text-3xl uppercase tracking-wide text-heading font-bold ">
                 about
               </div>
               <div className="mt-6 space-y-3 font-medium">
@@ -86,7 +86,7 @@ function Footer(){
               </div>
               </div>
               <div>
-              <div className="text-4xl uppercase tracking-wide text-heading font-bold ">
+              <div className="text-3xl uppercase tracking-wide text-heading font-bold ">
                 Quick links
               </div>
               <div className="mt-6 space-y-3 font-medium" >

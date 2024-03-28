@@ -8,6 +8,7 @@ import Blog from "./Components/Consultancy Website/Home/blog";
 import Data from "./Components/Consultancy Website/Home/data";
 import Footer from "./Components/Consultancy Website/Home/footer";
 import Goals from "./Components/Consultancy Website/Home/Goals";
+import Choose from "./Components/Consultancy Website/Home/choose";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Blog/>
       <Data/>
       <Goals/>
+      <Choose/>
       <Footer/>
     </div>
   );
