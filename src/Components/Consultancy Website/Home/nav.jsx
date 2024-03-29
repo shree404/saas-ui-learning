@@ -8,25 +8,33 @@ import Visamenu from "../Nav/visamenu";
 import ContactUsmenu from "../images/contactusmenu";
 import Eventmenu from "../Nav/eventmenu";
 import Blogmenu from "../Nav/blogmenu";
+import SearchIcon from '@mui/icons-material/Search';
+import logo from '../images/expertLogo.png';
 
 function Nav(){
     return(
         <div className="">
             <div className=" ">
+              {/* <div className="h-20 w-20">
+              <div className=" h-20 w-20  ">
+                <br />
+                <img src={logo} alt="Logo of expert education and visa services" className="ml-10 " />
+              </div>
+              </div> */}
             <div className="mx-auto w-full max-w-6xl lg:mt-0">
-        {/* Nav */}
-        <nav className="relative z-20  flex shrink-0 items-center space-x-2">
-          {/* <a href="#">
-            <img
-              src="https://res.cloudinary.com/dbbfbpsc2/image/upload/v1664089637/saasblocks-tdg1/assets/logos/penta_full.png"
-              alt="penta logo"
-              className="h-8 lg:h-12"
-            />
-          </a> */}
 
+        {/* Nav */}
+        <nav className=" flex shrink-0 items-center -space-x-2">
+          <div className=" -space-x-10 mt-10 ">
+            <img
+              src={logo}
+              alt="penta logo"
+              className="h-10 lg:h-12 -space-x-5"
+            />
+            </div>
           <div className="flex-1"></div>
           <div >
-          <div className="hidden space-x-5 mt-10 lg:flex  font-bold text-white
+          <div className="hidden space-x-4 ml- 10 mt-10 lg:flex  font-bold text-white
            ">
             <a
               href="#"
@@ -69,6 +77,12 @@ function Nav(){
               className="text-lg hover:text-heading focus:text-heading"
             >
               <ContactUsmenu/>
+            </a>
+            <a
+              href="#"
+              className="text-lg hover:text-heading focus:text-heading"
+            >
+              <SearchIcon/>
             </a>
           </div>
           </div>

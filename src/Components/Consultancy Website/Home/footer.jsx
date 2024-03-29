@@ -1,6 +1,7 @@
 import React from "react";
 import { ChevronRightIcon, HomeIcon } from "@heroicons/react/outline";
 import { Menu, Transition } from "@headlessui/react";
+import { BrowserRouter ,Routes, Route, Link } from "react-router-dom";
 
 function Footer(){
     return(
@@ -69,13 +70,14 @@ function Footer(){
                 about
               </div>
               <div className="mt-6 space-y-3 font-medium">
-              <a
-                  href="#"
+              <Link to="/about">
+              <div
                   className="flex gap-2 font-semibold text-text hover:text-heading"
                 >
                     <ChevronRightIcon className="h-5 w-5 " />
                     About Us
-                  </a>
+                  </div>
+                  </Link>
                   <a
                   href="#"
                   className="flex gap-2 font-semibold text-text hover:text-heading"
