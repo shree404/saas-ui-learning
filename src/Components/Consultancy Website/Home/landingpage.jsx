@@ -1,7 +1,7 @@
 import { MenuAlt3Icon } from "@heroicons/react/outline";
 import bg from '../images/studying.jpg';
 
-export default function LandingPage() {
+export default function Landing() {
   return (
     <div className="overflow-hidden px-6" 
     >
