@@ -28,7 +28,7 @@ function Nav(){
           <div className=" -space-x-10 mt-10 ">
             <img
               src={logo}
-              alt="penta logo"
+              alt="Expert logo"
               className="h-10 lg:h-12 -space-x-5"
             />
             </div>
@@ -39,12 +39,11 @@ function Nav(){
             <div className="text-lg hover:text-heading focus:text-heading">
             <Aboutmenu/>
             </div>
-            <a
-              href="#"
+            <div
               className="text-lg hover:text-heading focus:text-heading"
             >
               <StudyAbroadMenu/>
-            </a>
+            </div>
             <a
               href="#"
               className="text-lg hover:text-heading focus:text-heading"

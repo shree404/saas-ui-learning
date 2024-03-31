@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/outline";
+import { BrowserRouter ,Routes, Route, Link } from "react-router-dom";
 
 export default function StudyAbroadMenu() {
   return (
@@ -29,7 +30,9 @@ export default function StudyAbroadMenu() {
                       active ? "bg-muted-1 text-heading" : "text-text"
                     } flex w-full cursor-pointer items-center px-4 py-2 text-sm font-semibold`}
                   >
+                    <Link to="/study-in-australia">
                     Study  in Australia 
+                    </Link>
                   </button>
                 )}
               </Menu.Item>
