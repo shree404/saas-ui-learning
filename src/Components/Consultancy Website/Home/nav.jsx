@@ -36,12 +36,9 @@ function Nav(){
           <div >
           <div className="hidden space-x-4 ml- 10 mt-10 lg:flex  font-bold text-white
            ">
-            <a
-              href="#"
-              className="text-lg hover:text-heading focus:text-heading"
-            >
+            <div className="text-lg hover:text-heading focus:text-heading">
             <Aboutmenu/>
-            </a>
+            </div>
             <a
               href="#"
               className="text-lg hover:text-heading focus:text-heading"

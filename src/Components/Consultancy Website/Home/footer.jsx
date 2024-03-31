@@ -2,6 +2,7 @@ import React from "react";
 import { ChevronRightIcon, HomeIcon } from "@heroicons/react/outline";
 import { Menu, Transition } from "@headlessui/react";
 import { BrowserRouter ,Routes, Route, Link } from "react-router-dom";
+import logo from '../images/expertLogo.png';
 
 function Footer(){
     return(
@@ -116,6 +117,7 @@ function Footer(){
               </div>
               </div>
               <div>
+              <div>
               <Menu as="div" className="relative inline-block text-left gap-5 ">
               <Menu.Button className="inline-flex cursor-pointer items-center justify-center rounded-xl   px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:border-primary-accent hover:bg-primary-accent focus:outline-none focus:ring-2  focus:ring-offset-0 disabled:opacity-30 disabled:hover:border-primary disabled:hover:bg-primary disabled:hover:text-white ">
               <svg
@@ -158,6 +160,10 @@ function Footer(){
             </Menu.Button>
             </Menu>
               </div>
+              <div className="h-20 w-20 mt-10">
+              <img src={logo} alt="Logo of Expert Education"  />
+            </div>
+            </div>
             </div>
             </div>
             <div className="mt-5 ml-4">
