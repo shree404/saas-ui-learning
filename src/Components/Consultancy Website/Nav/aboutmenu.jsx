@@ -43,7 +43,9 @@ export default function Aboutmenu() {
                       active ? "bg-muted-1 text-heading" : "text-text"
                     } flex w-full cursor-pointer items-center px-4 py-2 text-sm font-semibold`}
                   >
+                    <Link to="/message-from-director">
                     Message from Director
+                    </Link>
                   </button>
                 )}
               </Menu.Item>
