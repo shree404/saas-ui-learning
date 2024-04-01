@@ -35,7 +35,8 @@ function AusForm(){
                     <label htmlFor="name"> Mobile  <span className="text-red-700"> *</span> </label> <br />
                     <div>
                     <div className="flex gap-0">
-                        <select name="" id="">
+                    <input list="countries" id="countryInput" name="country"/>
+                        <datalist id="countryCode">
                         <option value="+93">Afghanistan - +93</option>
   <option value="+374">Armenia - +374</option>
   <option value="+994">Azerbaijan - +994</option>
@@ -193,7 +194,7 @@ function AusForm(){
   <option value="+52">Mexico - +52</option>
   <option value="+1">United States (USA) - +1</option>
   <option value="+61">Australia - +61</option>
-                        </select>
+                        </datalist>
                     </div>
                     <div><input type=" number"  placeholder="9847234567"/></div>
                     </div>
@@ -201,9 +202,10 @@ function AusForm(){
                         <label htmlFor=""> Current City <span className="text-red-600">*</span></label>
                         <input type="text" placeholder="E.g. Sydney" />
                     </div>
-                    <div>
+                    {/* <div>
                         <label htmlFor=""> Country of Residence <span className="text-red-600">*</span></label>
-                        <select name="" id="">
+                        <input list="countries" id="countryInput" name="country" />
+                        <datalist id="country">
                         <option value="Afghanistan">Afghanistan</option>
   <option value="Albania">Albania</option>
   <option value="Algeria">Algeria</option>
@@ -398,7 +400,11 @@ function AusForm(){
   <option value="Yemen">Yemen</option>
   <option value="Zambia">Zambia</option>
   <option value="Zimbabwe">Zimbabwe</option>
-                        </select>
+                        </ datalist>
+                        {/* </input> */}
+                    {/* </div>  */}
+                    <div>
+                        
                     </div>
                     </div>
                 </form>
