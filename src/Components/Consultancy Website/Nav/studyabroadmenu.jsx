@@ -2,6 +2,10 @@ import { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/outline";
 import { BrowserRouter ,Routes, Route, Link } from "react-router-dom";
+import StudyinAusmenu from "./studuinausmenu";
+import StudyinCanmenu from "./studyincanmenu";
+import StudyinUKmenu from "./studyinukmenu";
+import StudyinUSAmenu from "./studyinusamenu";
 
 export default function StudyAbroadMenu() {
   return (
@@ -31,7 +35,7 @@ export default function StudyAbroadMenu() {
                     } flex w-full cursor-pointer items-center px-4 py-2 text-sm font-semibold`}
                   >
                     <Link to="/study-in-australia">
-                    Study  in Australia 
+                    <StudyinAusmenu/>
                     </Link>
                   </button>
                 )}
@@ -43,7 +47,7 @@ export default function StudyAbroadMenu() {
                       active ? "bg-muted-1 text-heading" : "text-text"
                     } flex w-full cursor-pointer items-center px-4 py-2 text-sm font-semibold`}
                   >
-                    Study in Canada
+                    <StudyinCanmenu/>
                   </button>
                 )}
               </Menu.Item>
@@ -54,7 +58,7 @@ export default function StudyAbroadMenu() {
                       active ? "bg-muted-1 text-heading" : "text-text"
                     } flex w-full cursor-pointer items-center px-4 py-2 text-sm font-semibold`}
                   >
-                    Study in UK
+                    <StudyinUKmenu/>
                   </button>
                 )}
               </Menu.Item>
@@ -65,7 +69,7 @@ export default function StudyAbroadMenu() {
                       active ? "bg-muted-1 text-heading" : "text-text"
                     } flex w-full cursor-pointer items-center px-4 py-2 text-sm font-semibold`}
                   >
-                    Study in USA
+                    <StudyinUSAmenu/>
                   </button>
                 )}
               </Menu.Item>
