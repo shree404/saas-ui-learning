@@ -4,6 +4,7 @@ import StudyInAusHeader from "../StudyInAus/Header";
 import bg from '../images/australia.jpg';
 import StudyInAusMenu from "../StudyInAus/menu";
 import AusForm from "../StudyInAus/form";
+import AusFromHeader from "../StudyInAus/formheader";
 
 
 function StudyInAus(){
@@ -15,6 +16,7 @@ function StudyInAus(){
             </div>
             <div>
             <StudyInAusMenu/>
+            <AusFromHeader/>
             <AusForm/>
             </div>
         </div>
