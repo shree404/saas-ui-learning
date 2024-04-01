@@ -4,24 +4,24 @@ import CircleRoundedIcon from '@mui/icons-material/CircleRounded';
 
 function AusForm(){
     return(
-        <div className="ml-20 mt-20 mb-20 bg-slate-100">
+        <div className="ml-20 mb-20 w-80 bg-slate-100">
             <div>
-                <form action="">
+                <form action="" className="ml-10 mb-10">
                     <div>
-                    <label htmlFor="name" className="mt-2 mb-2"> <span className="font-bold text-2xl"> First Name </span> <span className="text-red-700 font-bold text-xl"> *</span> </label>  <br />
+                    <label htmlFor="name" className="mt-2 mb-2"> <span className="font-bold text-xl"> First Name </span> <span className="text-red-700 font-bold text-lg"> *</span> </label>  <br />
                     <input type="text" className="mt-2 mb-2"  placeholder="E.g. John"/> 
                     </div>
                     <div>
-                    <label htmlFor="name" className="mt-2 mb-2"> <span className="font-bold text-2xl"> Last Name </span>  <span className="text-red-700 font-bold text-xl"> *</span> </label> <br /> 
+                    <label htmlFor="name" className="mt-2 mb-2"> <span className="font-bold text-xl"> Last Name </span>  <span className="text-red-700 font-bold text-lg"> *</span> </label> <br /> 
                     <input type="text"  className="mt-2 mb-2" placeholder="E.g. Smith"/> 
                     </div>
                     <div>
-                    <label htmlFor="name"className="mt-2 mb-2" > <span className="font-bold text-2xl"> Email </span>  <span className="text-red-700 font-bold text-xl"> *</span> </label> <br /> 
+                    <label htmlFor="name"className="mt-2 mb-2" > <span className="font-bold text-xl"> Email </span>  <span className="text-red-700 font-bold text-lg"> *</span> </label> <br /> 
                     <input type="email" className="mb-2 mt-2" placeholder="E.g. john.smith@email.com"/> 
                     </div>
                     <div>
-                    <label htmlFor="name" className="mt-2 mb-2"> <span className="font-bold text-2xl"> Mobile </span>  <span className="text-red-700 font-bold text-xl"> *</span> </label> <br /> 
-                    <input list="countrycode" className="mt-2 mb-2" name="countrycode" />
+                    <label htmlFor="name" className="mt-2 mb-2"> <span className="font-bold text-xl"> Mobile </span>  <span className="text-red-700 font-bold text-lg"> *</span> </label> <br /> 
+                    <input list="countrycode" className="mt-2 mb-2" name="countrycode"  placeholder=" +977 9821555325"/>
                         <datalist id= "countrycode">
                         <option value="Afghanistan - +93"/>
                         <option value="Armenia - +374"/>
@@ -211,8 +211,12 @@ function AusForm(){
                         </datalist>
                     </div>
                     <div>
-                    <label htmlFor="name" className="mt-2 mb-2"> <span className="font-bold text-2xl"> Country of Residence </span>  <span className="text-red-700 font-bold text-xl"> *</span> </label> <br /> 
-                    <input list="country" className="mb-2 mt-2" name="country" />
+                    <label htmlFor="name"className="mt-2 mb-2" > <span className="font-bold text-xl"> Current City </span>  <span className="text-red-700 font-bold text-lg"> *</span> </label> <br /> 
+                    <input type="text" className="mb-2 mt-2" placeholder="E.g. Kathmandu"/> 
+                    </div>
+                    <div>
+                    <label htmlFor="name" className="mt-2 mb-2"> <span className="font-bold text-xl"> Country of Residence </span>  <span className="text-red-700 font-bold text-lg"> *</span> </label> <br /> 
+                    <input list="country" className="mb-2 mt-2" name="country" placeholder="Nepal" />
                         <datalist id= "country">  
                         <option value="Afghanistan"/>
   <option value="Albania"/>
@@ -412,8 +416,17 @@ function AusForm(){
   <option value="Zambia"/>
   <option value="Zimbabwe"/>
                         </datalist> 
+                        </div>
+                        <div>
+                    <label htmlFor="name" className="mt-2 mb-2"> <span className="font-bold text-xl"> Last Education</span>  <span className="text-red-700 font-bold text-lg"> *</span> </label> <br /> 
+                    <input list="education" className="mb-2 mt-2" name="education" placeholder="12th" />
+                        <datalist id= "education">
+                        <option value="12th"/>
+                        <option value="Bachelor's Degree"/>
+                        <option value="Master's Degree"/>
+                             </datalist>
                       </div>
-                      </form>  
+                      </form>  <br />
                     </div>
                     </div>
     )
