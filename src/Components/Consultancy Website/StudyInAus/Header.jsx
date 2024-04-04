@@ -25,7 +25,7 @@ function StudyInAusHeader(){
                 </Link>
                 <ArrowForwardIcon/>
                 <p className="text-white twxt-md">
-                Study in Auatralia
+                Study in Australia
                 </p>
                 </div>
             </div>
