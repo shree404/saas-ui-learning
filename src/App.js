@@ -5,6 +5,7 @@ import LandingPage from "./Components/Consultancy Website/pages/Landing";
 import AboutExpertPage from "./Components/Consultancy Website/pages/AboutExpertpage";
 import MessageFromDirector from "./Components/Consultancy Website/pages/MessagefromDirector";
 import StudyInAus from "./Components/Consultancy Website/pages/StudyInAus";
+import StudyInCan from "./Components/Consultancy Website/pages/StudyinCan";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Route path="/about"   element= {<AboutExpertPage/>} />
       <Route path="/message-from-director"   element= {<MessageFromDirector/>} />
       <Route path="/study-in-australia"   element= {<StudyInAus/>} />
+      <Route path="/study-in-canada"   element= {<StudyInCan/>} />
     </Routes>
   </BrowserRouter>
     // <div>

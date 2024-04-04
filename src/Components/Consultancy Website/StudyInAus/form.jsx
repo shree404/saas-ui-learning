@@ -425,7 +425,16 @@ function AusForm(){
                         <option value="Bachelor's Degree"/>
                         <option value="Master's Degree"/>
                              </datalist>
+                      </div> <br />
+                      <div>
+                        <input type="checkbox" name="" id="" /><br />
+                        <p className="font-bold">I agree to the Expert Education <br /> Terms and Privacy Policy <span className="text-red-500"> *</span></p> <br /><br />
                       </div>
+                      <div className="w-20">
+                      <button className="inline-flex  w-20 cursor-pointer items-center justify-center  border-2  bg-blue-500 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:border-primary-accent hover:bg-primary-accent focus:outline-none focus:ring-2 focus:ring-orange-400/80 focus:ring-offset-0 disabled:opacity-30 disabled:hover:border-primary disabled:hover:bg-primary disabled:hover:text-white dark:focus:ring-white/80">
+        Submit
+      </button>
+      </div>
                       </form>  <br />
                     </div>
                     </div>
